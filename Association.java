@@ -25,4 +25,8 @@ public void setValue(v value) {
     public int compareTo(Association<k, v> other) {
         return this.key.compareTo(other.key);
     }
+@Override
+public String toString() {
+    return "(" + key + ", " + value + ")";
+}
 }

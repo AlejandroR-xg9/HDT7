@@ -1,4 +1,3 @@
-import java.util.Scanner;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -24,6 +23,8 @@ public class Main {
             } catch (IOException e) {
             e.printStackTrace();
         }
+        System.out.println("Diccionario ordenado:");
+        tree.inOrder();
         
         System.out.println("\nTraducción:");
 
